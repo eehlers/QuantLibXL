@@ -1,6 +1,6 @@
 
-#ifndef addincpp_convert2_hpp
-#define addincpp_convert2_hpp
+#ifndef addinxll_convert2_hpp
+#define addinxll_convert2_hpp
 
 #include <boost/lexical_cast.hpp>
 #include <ohxl/convert_oper.hpp>
