@@ -67,7 +67,7 @@
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
 				OutputFile="..\xll\QuantLibXL-vc90-mt-gd-1_5_0.xll"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="../../ObjectHandler/lib,../../QuantLib/lib,../../QuantLibAddin/lib,../../log4cxx/msvc/lib"
+				AdditionalLibraryDirectories="../../ObjectHandler/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
 				TargetMachine="1"
 			/>
@@ -147,7 +147,7 @@
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
 				OutputFile="..\xll\QuantLibXL-vc90-mt-1_5_0.xll"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="../../ObjectHandler/lib,../../QuantLib/lib,../../QuantLibAddin/lib,../../log4cxx/msvc/lib"
+				AdditionalLibraryDirectories="../../ObjectHandler/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
 				OptimizeReferences="2"
 				TargetMachine="1"

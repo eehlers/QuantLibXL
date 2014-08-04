@@ -28,8 +28,9 @@
 #include <oh/ohdefines.hpp>
 #if defined BOOST_MSVC       // Microsoft Visual C++
 #  define BOOST_LIB_DIAGNOSTIC
-#  include <qlo/auto_link.hpp>
 #  include <oh/auto_link.hpp>
+#  include <qlo/auto_link.hpp>
+#  include <ql/auto_link.hpp>
 #  if defined(XLL_STATIC)
      #include <ohxl/register/register_all.hpp>
      #include <ohxl/functions/export.hpp>
@@ -64,7 +65,7 @@ void init() {
 	// Instantiate the Serialization Factory
 	static QuantLibAddin::SerializationFactory factory;
     // Initialize the Enumeration Registry
-    QuantLibAddin::initializeAddin();
+    //QuantLibAddin::initializeAddin();
 }
 
 DLLEXPORT void xlAutoFree(XLOPER *px) {
@@ -115,8 +116,8 @@ DLLEXPORT int xlAutoOpen() {
         // Initialize QuantLib functions
         registerFunctions(xDll);
 
-        //// Initialize the Enumeration Registry
-        //QuantLibAddin::registerEnumerations();
+        // Initialize the Enumeration Registry
+        QuantLibAddin::initializeAddin();
 
         Excel(xlFree, 0, 1, &xDll);
 
