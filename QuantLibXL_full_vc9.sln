@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuantLibXLStatic", "qlxl\QuantLibXLStatic_vc9.vcproj", "{E2A6F3D4-19EF-419A-A529-9FC53E6DB0B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuantLibObjects", "..\QuantLibAddin2\QuantLibObjects_vc9.vcproj", "{9DAAB1B1-0EEF-4C89-A6F6-AAE48A182145}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swig", "..\QuantLibAddin2\swig\swig_vc9.vcproj", "{88BE5568-6E55-41C5-A251-670FAFB44336}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddinCpp", "..\QuantLibAddin2\AddinCpp\AddinCpp_vc9.vcproj", "{B1F9CC2E-FDB4-4853-856E-E47A2A7495DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Win32 = All|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2A6F3D4-19EF-419A-A529-9FC53E6DB0B6}.All|Win32.ActiveCfg = Release|Win32
+		{E2A6F3D4-19EF-419A-A529-9FC53E6DB0B6}.All|Win32.Build.0 = Release|Win32
+		{E2A6F3D4-19EF-419A-A529-9FC53E6DB0B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2A6F3D4-19EF-419A-A529-9FC53E6DB0B6}.Debug|Win32.Build.0 = Debug|Win32
+		{E2A6F3D4-19EF-419A-A529-9FC53E6DB0B6}.Release|Win32.ActiveCfg = Release|Win32
+		{E2A6F3D4-19EF-419A-A529-9FC53E6DB0B6}.Release|Win32.Build.0 = Release|Win32
+		{9DAAB1B1-0EEF-4C89-A6F6-AAE48A182145}.All|Win32.ActiveCfg = Release|Win32
+		{9DAAB1B1-0EEF-4C89-A6F6-AAE48A182145}.All|Win32.Build.0 = Release|Win32
+		{9DAAB1B1-0EEF-4C89-A6F6-AAE48A182145}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DAAB1B1-0EEF-4C89-A6F6-AAE48A182145}.Debug|Win32.Build.0 = Debug|Win32
+		{9DAAB1B1-0EEF-4C89-A6F6-AAE48A182145}.Release|Win32.ActiveCfg = Release|Win32
+		{9DAAB1B1-0EEF-4C89-A6F6-AAE48A182145}.Release|Win32.Build.0 = Release|Win32
+		{88BE5568-6E55-41C5-A251-670FAFB44336}.All|Win32.ActiveCfg = All|Win32
+		{88BE5568-6E55-41C5-A251-670FAFB44336}.All|Win32.Build.0 = All|Win32
+		{88BE5568-6E55-41C5-A251-670FAFB44336}.Debug|Win32.ActiveCfg = All|Win32
+		{88BE5568-6E55-41C5-A251-670FAFB44336}.Debug|Win32.Build.0 = All|Win32
+		{88BE5568-6E55-41C5-A251-670FAFB44336}.Release|Win32.ActiveCfg = All|Win32
+		{88BE5568-6E55-41C5-A251-670FAFB44336}.Release|Win32.Build.0 = All|Win32
+		{B1F9CC2E-FDB4-4853-856E-E47A2A7495DF}.All|Win32.ActiveCfg = Release|Win32
+		{B1F9CC2E-FDB4-4853-856E-E47A2A7495DF}.All|Win32.Build.0 = Release|Win32
+		{B1F9CC2E-FDB4-4853-856E-E47A2A7495DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1F9CC2E-FDB4-4853-856E-E47A2A7495DF}.Debug|Win32.Build.0 = Debug|Win32
+		{B1F9CC2E-FDB4-4853-856E-E47A2A7495DF}.Release|Win32.ActiveCfg = Release|Win32
+		{B1F9CC2E-FDB4-4853-856E-E47A2A7495DF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
