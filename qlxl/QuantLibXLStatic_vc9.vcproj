@@ -202,6 +202,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_handles.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_instruments.cpp"
 				>
 			</File>
@@ -255,6 +259,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_exercise.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_handles.cpp"
 				>
 			</File>
 			<File
