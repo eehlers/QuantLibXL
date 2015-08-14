@@ -20,7 +20,7 @@
 //#include <qlo/qladdindefines.hpp>
 #include <qlo/serialization/serializationfactory.hpp>
 #include <qlo/init.hpp>
-#include <register/register_all.hpp>
+#include <qlxl/register/register_all.hpp>
 
 /* Use BOOST_MSVC instead of _MSC_VER since some other vendors
    (Metrowerks, for example) also #define _MSC_VER

@@ -121,7 +121,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories=".,../../ObjectHandler,../../QuantLib,../../QuantLibAddin2"
+				AdditionalIncludeDirectories="..;../../ObjectHandler;../../QuantLib;../../QuantLibAddin2"
 				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_USRDLL;XLL_STATIC"
 				StringPooling="true"
 				MinimalRebuild="false"
