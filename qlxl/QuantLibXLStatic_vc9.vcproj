@@ -210,6 +210,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_indexes2.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_instruments.cpp"
 				>
 			</File>
@@ -271,6 +275,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_indexes.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_indexes2.cpp"
 				>
 			</File>
 			<File
