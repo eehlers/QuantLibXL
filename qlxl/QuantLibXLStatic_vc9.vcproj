@@ -222,6 +222,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_prices.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_pricingengines.cpp"
 				>
 			</File>
@@ -287,6 +291,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_payoffs.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_prices.cpp"
 				>
 			</File>
 			<File
