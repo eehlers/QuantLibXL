@@ -182,6 +182,10 @@
 			Name="conversions"
 			>
 			<File
+				RelativePath=".\conversions\all.hpp"
+				>
+			</File>
+			<File
 				RelativePath=".\conversions\convert2.cpp"
 				>
 			</File>
@@ -189,10 +193,50 @@
 				RelativePath=".\conversions\convert2.hpp"
 				>
 			</File>
+			<File
+				RelativePath=".\conversions\matrixtooper.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\matrixtooper.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\opertomatrix.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\opertomatrix.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\opertovector.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\opertovector.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\scalartooper.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\scalartooper.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\vectortooper.hpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="functions"
 			>
+			<File
+				RelativePath=".\functions\function_calendars.cpp"
+				>
+			</File>
 			<File
 				RelativePath=".\functions\function_date.cpp"
 				>
@@ -267,6 +311,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_all.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_calendars.cpp"
 				>
 			</File>
 			<File
