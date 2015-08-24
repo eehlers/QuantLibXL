@@ -286,6 +286,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_quote2.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_settings.cpp"
 				>
 			</File>
@@ -299,6 +303,10 @@
 			</File>
 			<File
 				RelativePath=".\functions\function_yieldtermstructures.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_quote2.cpp"
 				>
 			</File>
 		</Filter>
