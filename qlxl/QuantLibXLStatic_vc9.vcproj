@@ -290,6 +290,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_ratehelpers.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_settings.cpp"
 				>
 			</File>
@@ -371,6 +375,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_quote.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_ratehelpers.cpp"
 				>
 			</File>
 			<File
