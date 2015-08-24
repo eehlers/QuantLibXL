@@ -18,27 +18,31 @@
 
 #include <qlxl/conversions/scalartooper.hpp>
 #include <ohxl/conversions/scalartooper.hpp>
-//#include <ql/utilities/null.hpp>
+#include <ql/utilities/null.hpp>
 
-//    void scalarToOper(const QuantLib::InterestRate &value, OPER &xScalar, bool dllToFree, bool expandVector) {
-//        scalarToOper(value.rate(), xScalar);
-//    }
+namespace ObjectHandler {
 
-void ObjectHandler::scalarToOper(const QuantLib::Date &value, OPER &xScalar, bool dllToFree, bool expandVector) {
-    scalarToOper(value.serialNumber(), xScalar);
+    void scalarToOper(const QuantLib::InterestRate &value, OPER &xScalar, bool dllToFree, bool expandVector) {
+        scalarToOper(value.rate(), xScalar);
+    }
+
+    void scalarToOper(const QuantLib::Date &value, OPER &xScalar, bool dllToFree, bool expandVector) {
+        scalarToOper(value.serialNumber(), xScalar);
+    }
+
+    void scalarToOper(const QuantLib::Frequency &value, OPER &xScalar, bool dllToFree, bool expandVector) {
+        std::ostringstream s;
+        s << value;
+        scalarToOper(s.str(), xScalar);
+    }
+
+    void scalarToOper2(const QuantLib::Real &value, OPER &xScalar) {
+        if (abs(value) == QuantLib::Null<QuantLib::Real>()) {
+            xScalar.xltype = xltypeErr;
+            xScalar.val.err = xlerrNA;
+        } else
+            scalarToOper(value, xScalar);
+    }
+
 }
-
-//    void scalarToOper(const QuantLib::Frequency &value, OPER &xScalar, bool dllToFree, bool expandVector) {
-//        std::ostringstream s;
-//        s << value;
-//        scalarToOper(s.str(), xScalar);
-//    }
-//
-//    void scalarToOper2(const QuantLib::Real &value, OPER &xScalar) {
-//        if (abs(value) == QuantLib::Null<QuantLib::Real>()) {
-//            xScalar.xltype = xltypeErr;
-//            xScalar.val.err = xlerrNA;
-//        } else
-//            scalarToOper(value, xScalar);
-//    }
 

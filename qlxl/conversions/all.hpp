@@ -20,13 +20,11 @@
 #define qlxl_conversions_all_hpp
 
 #include <ohxl/conversions/all.hpp>
-//#include <qlo/conversions/all.hpp>
-#include <qlxl/conversions/convert2.hpp>
-//#include <qlxl/conversions/opertovector.hpp>
-//#include <qlxl/conversions/opertomatrix.hpp>
+#include <qlo/conversions/all.hpp>
+#include <qlxl/conversions/opertovector.hpp>
+#include <qlxl/conversions/opertomatrix.hpp>
 #include <qlxl/conversions/scalartooper.hpp>
-//#include <qlxl/conversions/vectortooper.hpp>
-//#include <qlxl/conversions/matrixtooper.hpp>
+#include <qlxl/conversions/vectortooper.hpp>
+#include <qlxl/conversions/matrixtooper.hpp>
 
 #endif
-

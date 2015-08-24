@@ -186,14 +186,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\conversions\convert2.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conversions\convert2.hpp"
-				>
-			</File>
-			<File
 				RelativePath=".\conversions\matrixtooper.cpp"
 				>
 			</File>
