@@ -262,6 +262,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_piecewiseyieldcurve.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_prices.cpp"
 				>
 			</File>
@@ -330,6 +334,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\register\register_date3.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\register\register_exercise.cpp"
 				>
 			</File>
@@ -351,6 +359,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_payoffs.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_piecewiseyieldcurve.cpp"
 				>
 			</File>
 			<File

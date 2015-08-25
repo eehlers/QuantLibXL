@@ -58,7 +58,7 @@ void init() {
 	// Instantiate the Enumerated Class Registry
 	static ObjectHandler::EnumClassRegistry enumClassRegistry;
 	// Instantiate the Enumerated Pair Registry
-	//static ObjectHandler::EnumPairRegistry enumPairRegistry;
+	static ObjectHandler::EnumPairRegistry enumPairRegistry;
 	#endif
     // Instantiate the Processor Factory
     static ObjectHandler::ProcessorFactory processorFactory;
