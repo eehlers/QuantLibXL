@@ -262,6 +262,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_interpolation.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_payoffs.cpp"
 				>
 			</File>
@@ -363,6 +367,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_instruments.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_interpolation.cpp"
 				>
 			</File>
 			<File
