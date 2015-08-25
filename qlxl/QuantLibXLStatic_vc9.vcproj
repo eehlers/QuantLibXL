@@ -294,15 +294,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_termstructures.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_utilities.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\functions\function_volatilities.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\functions\function_yieldtermstructures.cpp"
 				>
 			</File>
 			<File
@@ -390,15 +390,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\register\register_termstructures.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\register\register_utilities.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\register\register_volatilities.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\register\register_yieldtermstructures.cpp"
 				>
 			</File>
 		</Filter>
