@@ -282,6 +282,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_processes.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_quote.cpp"
 				>
 			</File>
@@ -383,6 +387,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_pricingengines.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_processes.cpp"
 				>
 			</File>
 			<File
