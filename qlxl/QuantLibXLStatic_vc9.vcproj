@@ -290,10 +290,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\functions\function_quote2.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\functions\function_ratehelpers.cpp"
 				>
 			</File>
