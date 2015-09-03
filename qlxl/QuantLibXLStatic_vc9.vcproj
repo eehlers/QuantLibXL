@@ -321,10 +321,6 @@
 				RelativePath=".\functions\function_volatilities.cpp"
 				>
 			</File>
-			<File
-				RelativePath=".\register\register_quote2.cpp"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="register"
