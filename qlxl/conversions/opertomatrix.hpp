@@ -19,7 +19,7 @@
 #ifndef qlxl_conversions_opertomatrix_hpp
 #define qlxl_conversions_opertomatrix_hpp
 
-#include <oh/ohdefines.hpp>
+#include <rp/rpdefines.hpp>
 #include <xlsdk/xlsdkdefines.hpp>
 #include <ql/handle.hpp>
 #include <ql/math/matrix.hpp>
@@ -37,9 +37,9 @@ namespace QuantLibXL {
     //    ||  xMatrix.xltype & xltypeMissing
     //    ||  xMatrix.xltype & xltypeErr && xMatrix.val.err == xlerrNA)
     //        return std::vector<std::vector<QuantLib::RelinkableHandle<qlClass> > >();
-    //    OH_REQUIRE(!(xMatrix.xltype & xltypeErr), "input value has type=error");
+    //    RP_REQUIRE(!(xMatrix.xltype & xltypeErr), "input value has type=error");
 
-    //    ObjectHandler::Xloper xTemp;
+    //    reposit::Xloper xTemp;
     //    const OPER *xMulti;
 
     //    if (xMatrix.xltype == xltypeMulti)
@@ -56,8 +56,8 @@ namespace QuantLibXL {
     //        row.reserve(xMulti->val.array.columns);
     //        for (int j=0; j<xMulti->val.array.columns; ++j) {
     //            std::string id =
-    //                ObjectHandler::operToScalar<std::string>(xMulti->val.array.lparray[i * xMulti->val.array.columns + j]);
-    //            OH_GET_OBJECT(obj, id, ObjectHandler::Object)
+    //                reposit::operToScalar<std::string>(xMulti->val.array.lparray[i * xMulti->val.array.columns + j]);
+    //            RP_GET_OBJECT(obj, id, reposit::Object)
     //            QuantLib::RelinkableHandle<qlClass> handle =
     //                QuantLibAddin::CoerceHandle<qloClass, qlClass>()(obj);
     //            row.push_back(handle);

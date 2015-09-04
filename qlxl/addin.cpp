@@ -16,7 +16,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ohxl/objecthandlerxl.hpp>
+#include <rpxl/repositxl.hpp>
 //#include <qlo/qladdindefines.hpp>
 #include <qlo/serialization/serializationfactory.hpp>
 #include <qlo/init.hpp>
@@ -25,15 +25,15 @@
 /* Use BOOST_MSVC instead of _MSC_VER since some other vendors
    (Metrowerks, for example) also #define _MSC_VER
 */
-#include <oh/ohdefines.hpp>
+#include <rp/rpdefines.hpp>
 #if defined BOOST_MSVC       // Microsoft Visual C++
 #  define BOOST_LIB_DIAGNOSTIC
-#  include <oh/auto_link.hpp>
+#  include <rp/auto_link.hpp>
 #  include <qlo/auto_link.hpp>
 #  include <ql/auto_link.hpp>
 #  if defined(XLL_STATIC)
-     #include <ohxl/register/register_all.hpp>
-     #include <ohxl/functions/export.hpp>
+     #include <rpxl/register/register_all.hpp>
+     #include <rpxl/functions/export.hpp>
      #pragma message("XLL_STATIC is defined")
 #  elif defined(XLL_IMPORTS)
      #include <xlsdk/auto_link.hpp>
@@ -51,17 +51,17 @@
 void init() {
 
 	#ifdef XLL_STATIC
-	// Instantiate the ObjectHandler Repository
-	static ObjectHandler::RepositoryXL repositoryXL;
+	// Instantiate the reposit Repository
+	static reposit::RepositoryXL repositoryXL;
 	// Instantiate the Enumerated Type Registry
-	static ObjectHandler::EnumTypeRegistry enumTypeRegistry;
+	static reposit::EnumTypeRegistry enumTypeRegistry;
 	// Instantiate the Enumerated Class Registry
-	static ObjectHandler::EnumClassRegistry enumClassRegistry;
+	static reposit::EnumClassRegistry enumClassRegistry;
 	// Instantiate the Enumerated Pair Registry
-	static ObjectHandler::EnumPairRegistry enumPairRegistry;
+	static reposit::EnumPairRegistry enumPairRegistry;
 	#endif
     // Instantiate the Processor Factory
-    static ObjectHandler::ProcessorFactory processorFactory;
+    static reposit::ProcessorFactory processorFactory;
 	// Instantiate the Serialization Factory
 	static QuantLibAddin::SerializationFactory factory;
     // Initialize the Enumeration Registry
@@ -87,7 +87,7 @@ DLLEXPORT XLOPER *xlAddInManagerInfo(XLOPER *xlAction) {
     // long name for the XLL. Any other value should result in the
     // return of a #VALUE! error.
     if (1 == xlReturn.val.w) {
-        ObjectHandler::scalarToOper(std::string("QuantLibXL " /*QLADDIN_VERSION*/), xlLongName);
+        reposit::scalarToOper(std::string("QuantLibXL " /*QLADDIN_VERSION*/), xlLongName);
     } else {
         xlLongName.xltype = xltypeErr;
         xlLongName.val.err = xlerrValue;
@@ -108,9 +108,9 @@ DLLEXPORT int xlAutoOpen() {
 
 #ifdef XLL_STATIC
         // Initialize configuration info
-        ObjectHandler::Configuration::instance().init();
+        reposit::Configuration::instance().init();
 
-        // Initialize ObjectHandler functions
+        // Initialize reposit functions
         registerOhFunctions(xDll);
 #endif
         // Initialize QuantLib functions
@@ -148,7 +148,7 @@ DLLEXPORT int xlAutoClose() {
         Excel(xlGetName, &xDll, 0);
 
 #ifdef XLL_STATIC
-        // Unregister ObjectHandler functions
+        // Unregister reposit functions
         unregisterOhFunctions(xDll);
 #endif
 
@@ -159,7 +159,7 @@ DLLEXPORT int xlAutoClose() {
         QuantLibAddin::closeAddin();
 
 #ifdef XLL_STATIC
-        ObjectHandler::RepositoryXL::instance().clear();
+        reposit::RepositoryXL::instance().clear();
 #endif
 
         Excel(xlFree, 0, 1, &xDll);

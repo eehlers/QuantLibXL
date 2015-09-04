@@ -19,7 +19,7 @@
 #ifndef qlxl_conversions_opertovector_hpp
 #define qlxl_conversions_opertovector_hpp
 
-#include <ohxl/conversions/all.hpp>
+#include <rpxl/conversions/all.hpp>
 #include <ql/math/array.hpp>
 
 namespace QuantLibXL {

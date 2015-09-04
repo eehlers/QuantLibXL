@@ -17,10 +17,10 @@
 */
 
 #include <qlxl/conversions/scalartooper.hpp>
-#include <ohxl/conversions/scalartooper.hpp>
+#include <rpxl/conversions/scalartooper.hpp>
 #include <ql/utilities/null.hpp>
 
-namespace ObjectHandler {
+namespace reposit {
 
     void scalarToOper(const QuantLib::InterestRate &value, OPER &xScalar, bool dllToFree, bool expandVector) {
         scalarToOper(value.rate(), xScalar);

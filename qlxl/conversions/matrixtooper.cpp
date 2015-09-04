@@ -17,10 +17,10 @@
 */
 
 #include <qlxl/conversions/matrixtooper.hpp>
-#include <ohxl/conversions/scalartooper.hpp>
-#include <oh/exception.hpp>
+#include <rpxl/conversions/scalartooper.hpp>
+#include <rp/exception.hpp>
 
-namespace ObjectHandler {
+namespace reposit {
 
     void matrixToOper(const QuantLib::Matrix &m, OPER &xMatrix) {
         if (m.empty()) {

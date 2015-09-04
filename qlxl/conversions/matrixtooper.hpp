@@ -19,12 +19,12 @@
 #ifndef qlxl_conversions_matrixtooper_hpp
 #define qlxl_conversions_matrixtooper_hpp
 
-#include <oh/ohdefines.hpp>
+#include <rp/rpdefines.hpp>
 #include <xlsdk/xlsdkdefines.hpp>
 #include <ql/math/matrix.hpp>
 
-// Override functions in the ObjectHandler namespace
-namespace ObjectHandler {
+// Override functions in the reposit namespace
+namespace reposit {
 
     void matrixToOper(const QuantLib::Matrix &m, OPER &xMatrix);
 

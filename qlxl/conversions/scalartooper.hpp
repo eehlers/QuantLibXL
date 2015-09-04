@@ -19,14 +19,14 @@
 #ifndef qlxl_conversions_scalartooper_hpp
 #define qlxl_conversions_scalartooper_hpp
 
-#include <oh/ohdefines.hpp>
+#include <rp/rpdefines.hpp>
 #include <xlsdk/xlsdkdefines.hpp>
 #include <ql/time/date.hpp>
 #include <ql/interestrate.hpp>
 
-// Override functions in the ObjectHandler namespace
+// Override functions in the reposit namespace
 
-namespace ObjectHandler {
+namespace reposit {
 
     void scalarToOper(const QuantLib::InterestRate &value, OPER &xScalar, bool dllToFree = true, bool expandVector = true);
     void scalarToOper(const QuantLib::Date &value, OPER &xScalar, bool dllToFree = true, bool expandVector = true);

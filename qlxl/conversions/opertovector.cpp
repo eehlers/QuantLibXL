@@ -17,7 +17,7 @@
 */
 
 #include <qlxl/conversions/opertovector.hpp>
-#include <ohxl/utilities/xlutilities.hpp>
+#include <rpxl/utilities/xlutilities.hpp>
 
 namespace QuantLibXL {
 
@@ -27,7 +27,7 @@ namespace QuantLibXL {
         bool excelToFree = false;
         bool xllToFree = false;
         try {
-            OH_REQUIRE(!(xVector.xltype & xltypeErr), 
+            RP_REQUIRE(!(xVector.xltype & xltypeErr), 
                 "input value '" << paramName << "' has type=error");
             if (xVector.xltype & (xltypeMissing | xltypeNil))
                 return QuantLib::Array();
@@ -49,7 +49,7 @@ namespace QuantLibXL {
             int size = xMulti->val.array.rows * xMulti->val.array.columns;
             QuantLib::Array a(size);
             for (int i=0; i<size; ++i) {
-                a[i] = ObjectHandler::convert2<double>(ObjectHandler::ConvertOper(xMulti->val.array.lparray[i]));
+                a[i] = reposit::convert2<double>(reposit::ConvertOper(xMulti->val.array.lparray[i]));
             }
 
             if (excelToFree) {
@@ -65,13 +65,13 @@ namespace QuantLibXL {
             } else if (xllToFree) {
                 freeOper(&xTemp);
             }
-            OH_FAIL("operToVector: error converting parameter '" << paramName << "' : " << e.what());
+            RP_FAIL("operToVector: error converting parameter '" << paramName << "' : " << e.what());
         }
     }
 }
 
-#include <oh/objecthandler.hpp>
-#include <ohxl/convert_oper.hpp>
+#include <rp/reposit.hpp>
+#include <rpxl/convert_oper.hpp>
 #include <qlo/Conversions/coercehandle.hpp>
 #include <qlo/Conversions/coerceobject.hpp>
 #include <qlo/Conversions/varianttoquotehandle.hpp>
@@ -82,7 +82,7 @@ namespace QuantLibXL {
 #include <qlo/Conversions/varianttotimeseries.hpp>
 #include <qlo/Conversions/conversion_tmpl.hpp>
 
-namespace ObjectHandler {
+namespace reposit {
 
     template<>
     boost::shared_ptr<QuantLib::Quote> convert2<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c) {
