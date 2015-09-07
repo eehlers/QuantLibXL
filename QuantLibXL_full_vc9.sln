@@ -14,7 +14,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuantLibObjects", "..\Quant
 		{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA} = {AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swigxl", "..\QuantLibAddin2\swig\swigxl_vc9.vcproj", "{88BE5568-6E55-41C5-A251-670FAFB44336}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swigrun_xl", "..\QuantLibAddin2\swig\swigrun_xl_vc9.vcproj", "{88BE5568-6E55-41C5-A251-670FAFB44336}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1BCA73BB-0CAD-4653-89E0-99C04C989CEC} = {1BCA73BB-0CAD-4653-89E0-99C04C989CEC}
 	EndProjectSection
