@@ -83,8 +83,8 @@ sys.excepthook = bs_excepthook
 
 zipFile = ZipFile("zip\\BermudanSwaptions.zip", "BermudanSwaptions\\")
 zipFile.zip("init.xlam")
-zipFile.zip("init.INSTALLED.bat", "init.bat")
-zipFile.zip("README.INSTALLED.TXT", "README.TXT")
+zipFile.zip("zip\\init.INSTALLED.bat", "init.bat")
+zipFile.zip("zip\\README.INSTALLED.TXT", "README.TXT")
 zipFile.zip("..\\..\\xll\\QuantLibXL-vc90-mt-1_7_0.xll", "xll\\QuantLibXL-vc90-mt-1_7_0.xll")
 zipFile.zip("xlsx\\GBP_Market_And_Trades.xlsx")
 
