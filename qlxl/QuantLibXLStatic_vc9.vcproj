@@ -314,6 +314,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_vanillaswaps.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_volatilities.cpp"
 				>
 			</File>
@@ -415,6 +419,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_utilities.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_vanillaswaps.cpp"
 				>
 			</File>
 			<File
