@@ -270,6 +270,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_math.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_models.cpp"
 				>
 			</File>
@@ -379,6 +383,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_leg.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_math.cpp"
 				>
 			</File>
 			<File
