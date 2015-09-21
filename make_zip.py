@@ -146,11 +146,11 @@ def makeZipStatic():
         zfile.write("../XL-Launcher/bin/Addin/" + baseName, ROOT_DIR + baseName)
 
     zfile.close()
-	
+
 def makeZipStaticX64():
     zipFilePath = "zip/%s-%s-%s.zip" % (QLXL_VERSION, "x64", "RateCurveFramework")
     zfile = zipfile.ZipFile(zipFilePath, "w", zipfile.ZIP_DEFLATED)
-	
+
     # Zip up some specific files from the QuantLibXL directory.
     zfile.write("Docs/QuantLibXL-docs-" + VERSION + ".chm", ROOT_DIR + "Docs/QuantLibXL-docs-" + VERSION + ".chm")
     zfile.write("xll/QuantLibXL-" + VC_VERSION + "-x64-mt-s-" + VERSION_ + ".xll", ROOT_DIR + "xll/QuantLibXL-" + VC_VERSION + "-x64-mt-s-" + VERSION_ + ".xll")
@@ -263,3 +263,6 @@ elif 'staticX64' == args['target']:
     makeZipStaticX64()
 else:
     print "Error - unsupported target : " + args['target']
+
+raw_input('press any key to exit')
+
