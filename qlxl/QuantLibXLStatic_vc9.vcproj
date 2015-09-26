@@ -319,10 +319,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\functions\function_date2.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\functions\function_daycounters.cpp"
 				>
 			</File>
@@ -432,10 +428,6 @@
 			</File>
 			<File
 				RelativePath=".\register\register_date.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\register\register_date2.cpp"
 				>
 			</File>
 			<File
