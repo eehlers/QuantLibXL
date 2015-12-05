@@ -68,7 +68,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-mt-gd-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-mt-gd-1_8_0.xll"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
@@ -148,7 +148,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-mt-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-mt-1_8_0.xll"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
@@ -229,7 +229,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-mt-s-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-mt-s-1_8_0.xll"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
@@ -309,7 +309,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-mt-sgd-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-mt-sgd-1_8_0.xll"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
@@ -389,7 +389,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-gd-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-gd-1_8_0.xll"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
@@ -470,7 +470,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-1_8_0.xll"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
@@ -552,7 +552,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-s-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-s-1_8_0.xll"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
@@ -631,7 +631,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib Ws2_32.lib advapi32.lib"
-				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-sgd-1_7_0.xll"
+				OutputFile="..\xll\QuantLibXL-vc90-$(PlatformName)-mt-sgd-1_8_0.xll"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../../reposit/lib,../../QuantLib/lib,../../QuantLibAddin2/lib,../../log4cxx/msvc/lib"
 				GenerateDebugInformation="true"
