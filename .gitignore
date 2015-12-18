@@ -1,2 +1,4 @@
 xll
 test.xml
+*.ncb
+*.suo
