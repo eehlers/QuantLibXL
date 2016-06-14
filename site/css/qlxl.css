@@ -1,0 +1,53 @@
+
+.navbar-static-top {
+    background-color: #d4eeb1;
+}
+
+.navbar .nav > li > a {
+color: white;
+}
+
+.navbar .nav > li > a:hover {
+  color: #A7CC74;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #d4eeb1;
+}
+
+h1 {
+    color: #A7CC74;
+}
+
+h2 {
+    color: #A7CC74;
+}
+
+.btn-primary {
+    background: #d4eeb1;
+    border-color: #d4eeb1;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #A7CC74;
+    border-color: #A7CC74;
+}

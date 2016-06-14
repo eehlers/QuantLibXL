@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>QuantLibXL</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/qlxl.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img style="width:190;height:44;margin-top:13px" src="images/qlxl.png">
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#license">License</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://quantlib.org">QuantLib</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>QuantLibXL</h1>
+            <p>QuantLibXL exports the functionality of the
+            <a href="http://quantlib.org">QuantLib</a> C++ analytics library to Microsoft
+            Excel.</p>
+
+            <p>The project comprises</p>
+            <li>A compiled Excel Addin (an XLL)</li>
+            <li>End user documentation</li>
+            <li>Example workbooks</li>
+
+            <p>The addin implements 1,080 functions in support of market data and
+            pricing for a variety of instruments including bonds, options, swaps,
+            swaptions, and caps/floors.</p>
+
+            <p>QuantLibXL is the Excel implementation of
+            <a href="http://www.quantlibaddin.org">QuantLibAddin</a>
+            which supports the same interface on a variety of other platforms.
+            QuantLibAddin includes downloads and tutorials for compiling addins from source
+            code for all environments including QuantLibXL.</p>
+      </div>
+<hr>
+<section id="features">
+<h1>Features</h1>
+      <div class="row">
+        <div class="col-md-6">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2 class="panel-title">Object Repository</h2>
+  </div>
+  <div class="panel-body">
+<p>The repository supports a variety of features including:</p>
+
+<ul>
+<li><b>Addins</b>: Bindings to Excel and C++ are provided, allowing you to
+implement a C++ program which replicates the behavior of your spreadsheet.</li>
+
+<li><b>Inheritance</b>: Inheritance relationships in your C++ library are
+preserved in the object oriented interface that is exported to Excel.</li>
+
+<li><b>Serialization</b>: Objects in the repository may be serialized, enabling
+you to save and load the state of your spreadsheet.</li>
+
+<li><b>Conversions</b>: The library supports a wide variety of conversions
+between C++ and Excel data types.</li>
+
+<li><b>Coercions</b>: You can configure coercions which allow the user to enter
+data of different types which are automatically converted into the target data
+type.</li>
+
+<li><b>Enumerations</b>: Enumerations allow the user to enter strings which are
+mapped to C++ enumerated types or template classes.</li>
+</ul>
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-6">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2 class="panel-title">SWIG Module</h2>
+  </div>
+  <div class="panel-body">
+<p>Autogeneration of addin source code is provided by a customized SWIG module.
+The code generation utility supports the following features:</p>
+
+<ul>
+<li><b>Functions</b>: Simple functions in your C++ library are easily exported
+to target platforms.</li>
+
+<li><b>Objects</b>: Classes in your C++ library are exported to the C++ and
+Excel addins. An autogenerated interface to these classes allows end users to
+construct objects, store them in the repository, and query and update
+them.</li>
+
+<li><b>Inheritance</b>: Object hierarchies in your C++ library are recognized
+by the code generation utility and preserved in the functions in the Excel/C++
+addins.</li>
+
+<li><b>Serialization</b>: All of the code required to serialize your objects is
+generated automatically.</li>
+
+<li><b>Overrides</b>: A facility is provided to override the autogenerated code
+in case you want to customize it.</li>
+</ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+</section>
+
+<hr>
+<section id="download">
+<h1>Download</h1>
+<p>Below is the link to the index for downloading and installing all of the various configurations of reposit.  This includes the binary release of QuantLibXL, plus all source code builds on Windows and Linux:</p>
+<p>
+<a class="btn btn-primary" href="docs/latest/build_overview.html" role="button">Download and install reposit &raquo;</a>
+</p>
+</section>
+
+<hr>
+<section id="documentation">
+<h1>Documentation</h1>
+<p>Here are links to the documentation:</p>
+      <div class="row">
+        <div class="col-md-6">
+            <h2>Object Repository</h2>
+<p>The classes in the Object Repository are documented here:</p>
+<p>
+<a class="btn btn-primary" href="docs/latest/index.html" role="button">Object Repository version 1.8.0 docs &raquo;</a>
+</p>
+        </div>
+        <div class="col-md-6">
+            <h2>SWIG Module</h2>
+<p>Our copy of SWIG is documented at the links below:</p>
+<p>
+<a class="btn btn-primary" href="docs/swig/index.html" role="button">SWIG docs &raquo;</a>
+<a class="btn btn-primary" href="docs/swig/Reposit.html" role="button">reposit SWIG Module docs &raquo;</a>
+</p>
+        </div>
+      </div>
+</section>
+
+<hr>
+      <div class="row">
+        <div class="col-md-6">
+<section id="support">
+<h1>Support</h1>
+<p>If you have a question about the reposit project, you can contact us via the
+quantlib-users mailing list:</p>
+<p>
+<a class="btn btn-primary" href="https://lists.sourceforge.net/lists/listinfo/quantlib-users" role="button">quantlib-users mailing list &raquo;</a>
+</p>
+<p>You can search the mailing list archives at this link:</p>
+<p>
+<a class="btn btn-primary" href="https://sourceforge.net/p/quantlib/mailman/quantlib-users/" role="button">quantlib-users mailing list archives &raquo;</a>
+</p>
+</section>
+        </div>
+        <div class="col-md-6">
+<section id="license">
+<h1>License</h1>
+<p>The reposit SWIG Module is released under the SWIG license.<p>
+<p>The reposit Object Repository is released under the QuantLib license.<p>
+<p>Complete license and copyright text for the project is provided at the link
+below:</p>
+<p>
+<a class="btn btn-primary" href="docs/latest/license.html" role="button">copyright &amp; license &raquo;</a>
+</p>
+</section>
+        </div>
+      </div>
+
+
+
+    </div> <!-- /container -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="span4"></div>
+          <div class="span4"><a href="http://www.reposit.be"><img class="center-block" style="width:88;height:46;margin-top:10px" src="images/logo_reposit.png"></a></div>
+          <div class="span4"></div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
