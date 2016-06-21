@@ -783,7 +783,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\functions\function_quote.cpp"
+				RelativePath=".\functions\function_quotes.cpp"
 				>
 			</File>
 			<File
@@ -899,7 +899,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\register\register_quote.cpp"
+				RelativePath=".\register\register_quotes.cpp"
 				>
 			</File>
 			<File
