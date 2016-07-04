@@ -109,9 +109,9 @@ namespace reposit {
         return convertQuoteHandle(c);
     }
 
-    //template<> 
-    //QuantLib::TimeSeriesDef convert2<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c) {
-    //    return convertTimeSeriesDef(c);
-    //}
+    template<> 
+    QuantLib::TimeSeriesDef convert2<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c) {
+        return convertTimeSeriesDef(c);
+    }
 
 }

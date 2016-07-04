@@ -803,6 +803,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_timeseries.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_utilities.cpp"
 				>
 			</File>
@@ -916,6 +920,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_termstructures.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_timeseries.cpp"
 				>
 			</File>
 			<File
