@@ -711,6 +711,10 @@
 			Name="functions"
 			>
 			<File
+				RelativePath=".\functions\function_assetswap.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_bonds.cpp"
 				>
 			</File>
@@ -828,6 +832,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_all.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_assetswap.cpp"
 				>
 			</File>
 			<File
