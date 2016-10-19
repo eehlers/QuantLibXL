@@ -803,6 +803,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_swap.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_termstructures.cpp"
 				>
 			</File>
@@ -924,6 +928,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_settings.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_swap.cpp"
 				>
 			</File>
 			<File
