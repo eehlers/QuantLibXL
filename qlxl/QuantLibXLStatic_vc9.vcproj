@@ -715,6 +715,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_basketlossmodels.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_bonds.cpp"
 				>
 			</File>
@@ -727,11 +731,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_credit.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_date.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\functions\function_daycounters.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\functions\function_defaultbasket.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\functions\function_defaulttermstructures.cpp"
 				>
 			</File>
 			<File
@@ -752,6 +768,10 @@
 			</File>
 			<File
 				RelativePath=".\functions\function_interpolation.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\functions\function_latentmodels.cpp"
 				>
 			</File>
 			<File
@@ -843,6 +863,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\register\register_basketlossmodels.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\register\register_bonds.cpp"
 				>
 			</File>
@@ -855,11 +879,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\register\register_credit.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\register\register_date.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\register\register_daycounters.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_defaultbasket.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_defaulttermstructures.cpp"
 				>
 			</File>
 			<File
@@ -880,6 +916,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_interpolation.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_latentmodels.cpp"
 				>
 			</File>
 			<File
