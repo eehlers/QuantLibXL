@@ -671,6 +671,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\conversions\convert.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\conversions\matrixtooper.cpp"
 				>
 			</File>
@@ -703,6 +707,30 @@
 				>
 			</File>
 			<File
+				RelativePath=".\conversions\varianttodate.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\varianttoperiod.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\varianttoquote.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\varianttoquotehandle.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\varianttosize.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversions\varianttotimeseries.hpp"
+				>
+			</File>
+			<File
 				RelativePath=".\conversions\vectortooper.hpp"
 				>
 			</File>
@@ -710,6 +738,10 @@
 		<Filter
 			Name="functions"
 			>
+			<File
+				RelativePath=".\functions\function_date.cpp"
+				>
+			</File>
 			<File
 				RelativePath=".\functions\function_utilities.cpp"
 				>
@@ -724,6 +756,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_all.hpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_date.cpp"
 				>
 			</File>
 			<File

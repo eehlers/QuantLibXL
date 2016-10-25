@@ -1,6 +1,8 @@
+/* -*- mode: c++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 
 /*
- Copyright (C) 2006 Eric Ehlers
+ Copyright (C) 2007 Eric Ehlers
+ Copyright (C) 2008 Plamen Neykov
 
  This file is part of QuantLib, a free-software/open-source library
  for financial quantitative analysts and developers - http://quantlib.org/
@@ -16,16 +18,19 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <qlxl/conversions/opertomatrix.hpp>
+#ifndef qlxl_convert_quotehandle_hpp
+#define qlxl_convert_quotehandle_hpp
 
-namespace QuantLibXL {
+//#include <qlo/objects/objmanual_quotes.hpp>
+#include <ql/quotes/simplequote.hpp>
+#include <rp/conversions/convert.hpp>
 
-    QuantLib::Matrix operToQlMatrix(const FP &fpVector) {
-        QuantLib::Matrix m(fpVector.rows, fpVector.columns);
-        for (int i=0; i<fpVector.rows; ++i)
-            for (int j=0; j<fpVector.columns; ++j)
-                m[i][j] = fpVector.array[i * fpVector.columns + j];
-        return m;
-    }
+namespace reposit {
+
+    class ConvertOper;
+
+    template<>
+    QuantLib::Handle<QuantLib::Quote> convert<QuantLib::Handle<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
 }
 
+#endif
