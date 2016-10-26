@@ -18,19 +18,35 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#ifndef qlxl_convert_quote_hpp
-#define qlxl_convert_quote_hpp
+#ifndef qlxl_convert_timeseries_hpp
+#define qlxl_convert_timeseries_hpp
 
-//#include <qlo/objects/objmanual_quotes.hpp>
-#include <ql/quote.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <rp/conversions/convert.hpp>
+
+namespace QuantLib {
+    typedef std::size_t Size;
+    class Date;
+    class Period;
+};
 
 namespace reposit {
-    
+
     class ConvertOper;
 
+    template<> QuantLib::Date convert<QuantLib::Date, ConvertOper>(const ConvertOper& c);
+
+    template<> QuantLib::Size convert<QuantLib::Size, ConvertOper>(const ConvertOper& p);
+
     template<>
-    boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
+    QuantLib::Period convert<QuantLib::Period, ConvertOper>(const ConvertOper& p);
+
+    //template<>
+    //QuantLib::Handle<QuantLib::Quote> convert<QuantLib::Handle<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
+
+    //template<>
+    //boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
+
+    //template<> QuantLib::TimeSeriesDef convert<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c);
 }
 
 #endif

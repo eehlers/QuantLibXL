@@ -16,15 +16,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <rp/reposit.hpp>
-#include <rpxl/convert_oper.hpp>
-#include <qlxl/conversions/varianttoquotehandle.hpp>
-#include <qlxl/conversions/varianttodate.hpp>
-#include <qlxl/conversions/varianttoquote.hpp>
-#include <qlxl/conversions/varianttoperiod.hpp>
-#include <qlxl/conversions/varianttosize.hpp>
-#include <qlxl/conversions/varianttotimeseries.hpp>
+#include <qlxl/conversions/convert.hpp>
 #include <qlo/conversions/convert_tmpl.hpp>
+#include <rpxl/convert_oper.hpp>
 
 namespace reposit {
 
@@ -33,19 +27,19 @@ namespace reposit {
         return convertDate(c);
     }
 
-    //template<>
-    //boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c) {
-    //    return convertQuote(c);
-    //}
+    template<> 
+    QuantLib::Size convert<QuantLib::Size, ConvertOper>(const ConvertOper& p) {
+        return convertSize(p); 
+    }
 
     template<> 
     QuantLib::Period convert<QuantLib::Period, ConvertOper>(const ConvertOper& c) {
         return convertPeriod(c);
     }
-    
-    //template<> 
-    //QuantLib::Size convert<QuantLib::Size, ConvertOper>(const ConvertOper& p) {
-    //    return convertSize(p); 
+
+    //template<>
+    //boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c) {
+    //    return convertQuote(c);
     //}
 
     //template<>

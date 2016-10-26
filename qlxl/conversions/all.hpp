@@ -26,11 +26,6 @@
 #include <qlxl/conversions/scalartooper.hpp>
 #include <qlxl/conversions/vectortooper.hpp>
 #include <qlxl/conversions/matrixtooper.hpp>
-#include <qlxl/conversions/varianttodate.hpp>
-#include <qlxl/conversions/varianttoperiod.hpp>
-#include <qlxl/conversions/varianttoquote.hpp>
-#include <qlxl/conversions/varianttoquotehandle.hpp>
-#include <qlxl/conversions/varianttosize.hpp>
-#include <qlxl/conversions/varianttotimeseries.hpp>
+#include <qlxl/conversions/convert.hpp>
 
 #endif

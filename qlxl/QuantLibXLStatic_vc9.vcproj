@@ -675,6 +675,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\conversions\convert.hpp"
+				>
+			</File>
+			<File
 				RelativePath=".\conversions\matrixtooper.cpp"
 				>
 			</File>
@@ -704,30 +708,6 @@
 			</File>
 			<File
 				RelativePath=".\conversions\scalartooper.hpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conversions\varianttodate.hpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conversions\varianttoperiod.hpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conversions\varianttoquote.hpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conversions\varianttoquotehandle.hpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conversions\varianttosize.hpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conversions\varianttotimeseries.hpp"
 				>
 			</File>
 			<File
