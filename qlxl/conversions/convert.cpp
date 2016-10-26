@@ -47,8 +47,8 @@ namespace reposit {
     //    return convertQuoteHandle(c);
     //}
 
-    //template<> 
-    //QuantLib::TimeSeriesDef convert<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c) {
-    //    return convertTimeSeriesDef(c);
-    //}
+    template<> 
+    QuantLib::TimeSeriesDef convert<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c) {
+        return convertTimeSeriesDef(c);
+    }
 }

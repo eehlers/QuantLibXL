@@ -22,11 +22,18 @@
 #define qlxl_convert_timeseries_hpp
 
 #include <rp/conversions/convert.hpp>
+#include <ql/types.hpp>
+#include <map>
 
 namespace QuantLib {
     typedef std::size_t Size;
     class Date;
     class Period;
+
+    template<class T, class Container>
+    class TimeSeries;
+
+    typedef TimeSeries<QuantLib::Real, std::map<QuantLib::Date, QuantLib::Real> > TimeSeriesDef;
 };
 
 namespace reposit {
@@ -46,7 +53,7 @@ namespace reposit {
     //template<>
     //boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
 
-    //template<> QuantLib::TimeSeriesDef convert<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c);
+    template<> QuantLib::TimeSeriesDef convert<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c);
 }
 
 #endif
