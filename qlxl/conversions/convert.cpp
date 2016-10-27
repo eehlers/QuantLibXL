@@ -37,15 +37,15 @@ namespace reposit {
         return convertPeriod(c);
     }
 
-    //template<>
-    //boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c) {
-    //    return convertQuote(c);
-    //}
+    template<>
+    boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c) {
+        return convertQuote(c);
+    }
 
-    //template<>
-    //QuantLib::Handle<QuantLib::Quote> convert<QuantLib::Handle<QuantLib::Quote>, ConvertOper>(const ConvertOper& c) {
-    //    return convertQuoteHandle(c);
-    //}
+    template<>
+    QuantLib::Handle<QuantLib::Quote> convert<QuantLib::Handle<QuantLib::Quote>, ConvertOper>(const ConvertOper& c) {
+        return convertQuoteHandle(c);
+    }
 
     template<> 
     QuantLib::TimeSeriesDef convert<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c) {

@@ -26,9 +26,10 @@
 #include <map>
 
 namespace QuantLib {
-    typedef std::size_t Size;
     class Date;
     class Period;
+    class Quote;
+    template <class T> class Handle;
 
     template<class T, class Container>
     class TimeSeries;
@@ -47,11 +48,11 @@ namespace reposit {
     template<>
     QuantLib::Period convert<QuantLib::Period, ConvertOper>(const ConvertOper& p);
 
-    //template<>
-    //QuantLib::Handle<QuantLib::Quote> convert<QuantLib::Handle<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
+    template<>
+    QuantLib::Handle<QuantLib::Quote> convert<QuantLib::Handle<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
 
-    //template<>
-    //boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
+    template<>
+    boost::shared_ptr<QuantLib::Quote> convert<boost::shared_ptr<QuantLib::Quote>, ConvertOper>(const ConvertOper& c);
 
     template<> QuantLib::TimeSeriesDef convert<QuantLib::TimeSeriesDef, ConvertOper>(const ConvertOper& c);
 }
