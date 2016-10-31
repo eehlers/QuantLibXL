@@ -727,6 +727,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_daycounters.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_indexes.cpp"
 				>
 			</File>
@@ -760,6 +764,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_date.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_daycounters.cpp"
 				>
 			</File>
 			<File
