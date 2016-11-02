@@ -743,6 +743,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_ratehelpers.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_termstructures.cpp"
 				>
 			</File>
@@ -788,6 +792,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_quotes.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_ratehelpers.cpp"
 				>
 			</File>
 			<File
