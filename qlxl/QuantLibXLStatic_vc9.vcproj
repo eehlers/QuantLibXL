@@ -751,6 +751,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_schedule.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_termstructures.cpp"
 				>
 			</File>
@@ -804,6 +808,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_ratehelpers.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_schedule.cpp"
 				>
 			</File>
 			<File
