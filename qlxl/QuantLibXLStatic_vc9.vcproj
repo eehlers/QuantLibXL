@@ -755,6 +755,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_settings.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_termstructures.cpp"
 				>
 			</File>
@@ -764,6 +768,10 @@
 			</File>
 			<File
 				RelativePath=".\functions\function_utilities.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\functions\function_volatilities.cpp"
 				>
 			</File>
 		</Filter>
@@ -815,6 +823,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\register\register_settings.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\register\register_termstructures.cpp"
 				>
 			</File>
@@ -824,6 +836,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_utilities.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_volatilities.cpp"
 				>
 			</File>
 		</Filter>
