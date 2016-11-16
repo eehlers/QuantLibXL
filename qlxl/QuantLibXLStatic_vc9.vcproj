@@ -747,6 +747,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_processes.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_quotes.cpp"
 				>
 			</File>
@@ -820,6 +824,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_piecewiseyieldcurve.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_processes.cpp"
 				>
 			</File>
 			<File
