@@ -763,6 +763,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_shortratemodels.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_termstructures.cpp"
 				>
 			</File>
@@ -832,6 +836,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_settings.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_shortratemodels.cpp"
 				>
 			</File>
 			<File
