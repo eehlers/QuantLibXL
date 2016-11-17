@@ -743,6 +743,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_optimization.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_payoffs.cpp"
 				>
 			</File>
@@ -824,6 +828,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_math.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_optimization.cpp"
 				>
 			</File>
 			<File
