@@ -779,6 +779,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_smilesection.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_termstructures.cpp"
 				>
 			</File>
@@ -864,6 +868,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_shortratemodels.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_smilesection.cpp"
 				>
 			</File>
 			<File
