@@ -723,6 +723,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_capletvolstructure.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_date.cpp"
 				>
 			</File>
@@ -816,6 +820,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_calendars.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_capletvolstructure.cpp"
 				>
 			</File>
 			<File
