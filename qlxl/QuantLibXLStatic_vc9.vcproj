@@ -783,6 +783,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_swaptionvolstructure.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_termstructures.cpp"
 				>
 			</File>
@@ -872,6 +876,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_smilesection.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_swaptionvolstructure.cpp"
 				>
 			</File>
 			<File
