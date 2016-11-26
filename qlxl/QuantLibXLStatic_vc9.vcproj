@@ -747,6 +747,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_leg.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_math.cpp"
 				>
 			</File>
@@ -852,6 +856,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_indexes.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_leg.cpp"
 				>
 			</File>
 			<File
