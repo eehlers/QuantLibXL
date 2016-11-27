@@ -823,6 +823,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_vanillaswap.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_volatilities.cpp"
 				>
 			</File>
@@ -940,6 +944,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_utilities.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_vanillaswap.cpp"
 				>
 			</File>
 			<File
