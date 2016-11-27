@@ -803,6 +803,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_swap.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_swaptionvolstructure.cpp"
 				>
 			</File>
@@ -916,6 +920,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_smilesection.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_swap.cpp"
 				>
 			</File>
 			<File
