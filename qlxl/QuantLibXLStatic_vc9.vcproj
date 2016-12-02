@@ -723,6 +723,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_bonds.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_calendars.cpp"
 				>
 			</File>
@@ -852,6 +856,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_basketlossmodels.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_bonds.cpp"
 				>
 			</File>
 			<File
