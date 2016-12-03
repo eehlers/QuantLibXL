@@ -743,11 +743,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\functions\function_credit.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\functions\function_date.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\functions\function_daycounters.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\functions\function_defaultbasket.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\functions\function_defaulttermstructures.cpp"
 				>
 			</File>
 			<File
@@ -764,6 +776,10 @@
 			</File>
 			<File
 				RelativePath=".\functions\function_instruments.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\functions\function_latentmodels.cpp"
 				>
 			</File>
 			<File
@@ -883,11 +899,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\register\register_credit.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\register\register_date.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\register\register_daycounters.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_defaultbasket.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_defaulttermstructures.cpp"
 				>
 			</File>
 			<File
@@ -904,6 +932,10 @@
 			</File>
 			<File
 				RelativePath=".\register\register_instruments.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\register\register_latentmodels.cpp"
 				>
 			</File>
 			<File
