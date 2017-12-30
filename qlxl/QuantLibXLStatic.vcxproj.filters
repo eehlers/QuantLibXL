@@ -285,5 +285,11 @@
       <Filter>register</Filter>
     </ClCompile>
     <ClCompile Include="addin.cpp" />
+    <ClCompile Include="functions\function_abcd.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_abcd.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
