@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="conversions">
+      <UniqueIdentifier>{ba0ba445-15bb-4c78-9bea-66fe2e312b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{a77f7989-9f21-4bb4-9ee8-948c1a778a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="register">
+      <UniqueIdentifier>{62a7a167-a1fb-490b-98c7-880e9f8a6718}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="conversions\all.hpp">
+      <Filter>conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="conversions\convert.hpp">
+      <Filter>conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="conversions\matrixtooper.hpp">
+      <Filter>conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="conversions\opertomatrix.hpp">
+      <Filter>conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="conversions\opertovector.hpp">
+      <Filter>conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="conversions\scalartooper.hpp">
+      <Filter>conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="conversions\vectortooper.hpp">
+      <Filter>conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="register\register_all.hpp">
+      <Filter>register</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="conversions\convert.cpp">
+      <Filter>conversions</Filter>
+    </ClCompile>
+    <ClCompile Include="conversions\matrixtooper.cpp">
+      <Filter>conversions</Filter>
+    </ClCompile>
+    <ClCompile Include="conversions\opertomatrix.cpp">
+      <Filter>conversions</Filter>
+    </ClCompile>
+    <ClCompile Include="conversions\opertovector.cpp">
+      <Filter>conversions</Filter>
+    </ClCompile>
+    <ClCompile Include="conversions\scalartooper.cpp">
+      <Filter>conversions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_assetswap.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_basketlossmodels.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_bonds.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_calendars.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_capletvolstructure.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_couponvectors.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_credit.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_date.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_daycounters.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_defaultbasket.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_defaulttermstructures.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_exercise.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_handles.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_indexes.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_instruments.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_interpolation.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_latentmodels.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_leg.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_math.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_optimization.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_payoffs.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_piecewiseyieldcurve.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_prices.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_pricingengines.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_processes.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_quotes.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_ratehelpers.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_schedule.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_settings.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_shortratemodels.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_smilesection.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_swap.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_swaptionvolstructure.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_termstructures.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_timeseries.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_utilities.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_vanillaswap.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_volatilities.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_all.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_assetswap.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_basketlossmodels.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_bonds.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_calendars.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_capletvolstructure.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_couponvectors.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_credit.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_date.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_daycounters.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_defaultbasket.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_defaulttermstructures.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_exercise.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_handles.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_indexes.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_instruments.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_interpolation.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_latentmodels.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_leg.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_math.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_optimization.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_payoffs.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_piecewiseyieldcurve.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_prices.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_pricingengines.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_processes.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_quotes.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_ratehelpers.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_schedule.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_settings.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_shortratemodels.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_smilesection.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_swap.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_swaptionvolstructure.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_termstructures.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_timeseries.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_utilities.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_vanillaswap.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_volatilities.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="addin.cpp" />
+  </ItemGroup>
+</Project>
