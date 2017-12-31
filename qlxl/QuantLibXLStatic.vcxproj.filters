@@ -291,5 +291,17 @@
     <ClCompile Include="register\register_abcd.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_browniangenerators.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_browniangenerators.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_volatility.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_volatility.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

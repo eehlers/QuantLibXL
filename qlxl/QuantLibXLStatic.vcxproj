@@ -391,6 +391,7 @@
     <ClCompile Include="functions\function_assetswap.cpp" />
     <ClCompile Include="functions\function_basketlossmodels.cpp" />
     <ClCompile Include="functions\function_bonds.cpp" />
+    <ClCompile Include="functions\function_browniangenerators.cpp" />
     <ClCompile Include="functions\function_calendars.cpp" />
     <ClCompile Include="functions\function_capletvolstructure.cpp" />
     <ClCompile Include="functions\function_couponvectors.cpp" />
@@ -426,11 +427,13 @@
     <ClCompile Include="functions\function_utilities.cpp" />
     <ClCompile Include="functions\function_vanillaswap.cpp" />
     <ClCompile Include="functions\function_volatilities.cpp" />
+    <ClCompile Include="functions\function_volatility.cpp" />
     <ClCompile Include="register\register_abcd.cpp" />
     <ClCompile Include="register\register_all.cpp" />
     <ClCompile Include="register\register_assetswap.cpp" />
     <ClCompile Include="register\register_basketlossmodels.cpp" />
     <ClCompile Include="register\register_bonds.cpp" />
+    <ClCompile Include="register\register_browniangenerators.cpp" />
     <ClCompile Include="register\register_calendars.cpp" />
     <ClCompile Include="register\register_capletvolstructure.cpp" />
     <ClCompile Include="register\register_couponvectors.cpp" />
@@ -466,6 +469,7 @@
     <ClCompile Include="register\register_utilities.cpp" />
     <ClCompile Include="register\register_vanillaswap.cpp" />
     <ClCompile Include="register\register_volatilities.cpp" />
+    <ClCompile Include="register\register_volatility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\QuantLibAddin\QuantLibObjects.vcxproj">
