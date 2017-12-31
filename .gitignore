@@ -1,5 +1,3 @@
-xll
-test.xml
 *.ncb
 *.suo
 Makefile
@@ -11,3 +9,7 @@ config.status
 configure
 install-sh
 missing
+qlxl/functions/*.old
+qlxl/register/*.old
+test.xml
+xll
