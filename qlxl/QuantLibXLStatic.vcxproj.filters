@@ -303,5 +303,11 @@
     <ClCompile Include="functions\function_volatility.cpp">
       <Filter>functions</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_curvestate.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_curvestate.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
