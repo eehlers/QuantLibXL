@@ -309,5 +309,11 @@
     <ClCompile Include="register\register_curvestate.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="register\register_alphaform.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_alphaform.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
