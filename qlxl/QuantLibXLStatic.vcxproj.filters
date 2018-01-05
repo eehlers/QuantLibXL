@@ -315,5 +315,11 @@
     <ClCompile Include="functions\function_alphaform.cpp">
       <Filter>functions</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_driftcalculators.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_driftcalculators.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

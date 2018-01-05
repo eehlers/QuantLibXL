@@ -342,6 +342,7 @@
       <AdditionalLibraryDirectories>../../reposit/lib;../../QuantLib/lib;../../QuantLibAddin/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug (static runtime)|x64'">
@@ -402,6 +403,7 @@
     <ClCompile Include="functions\function_daycounters.cpp" />
     <ClCompile Include="functions\function_defaultbasket.cpp" />
     <ClCompile Include="functions\function_defaulttermstructures.cpp" />
+    <ClCompile Include="functions\function_driftcalculators.cpp" />
     <ClCompile Include="functions\function_exercise.cpp" />
     <ClCompile Include="functions\function_handles.cpp" />
     <ClCompile Include="functions\function_indexes.cpp" />
@@ -446,6 +448,7 @@
     <ClCompile Include="register\register_daycounters.cpp" />
     <ClCompile Include="register\register_defaultbasket.cpp" />
     <ClCompile Include="register\register_defaulttermstructures.cpp" />
+    <ClCompile Include="register\register_driftcalculators.cpp" />
     <ClCompile Include="register\register_exercise.cpp" />
     <ClCompile Include="register\register_handles.cpp" />
     <ClCompile Include="register\register_indexes.cpp" />
