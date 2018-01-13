@@ -321,5 +321,11 @@
     <ClCompile Include="register\register_driftcalculators.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_sequencestatistics.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_sequencestatistics.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

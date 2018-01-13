@@ -421,6 +421,7 @@
     <ClCompile Include="functions\function_quotes.cpp" />
     <ClCompile Include="functions\function_ratehelpers.cpp" />
     <ClCompile Include="functions\function_schedule.cpp" />
+    <ClCompile Include="functions\function_sequencestatistics.cpp" />
     <ClCompile Include="functions\function_settings.cpp" />
     <ClCompile Include="functions\function_shortratemodels.cpp" />
     <ClCompile Include="functions\function_smilesection.cpp" />
@@ -466,6 +467,7 @@
     <ClCompile Include="register\register_quotes.cpp" />
     <ClCompile Include="register\register_ratehelpers.cpp" />
     <ClCompile Include="register\register_schedule.cpp" />
+    <ClCompile Include="register\register_sequencestatistics.cpp" />
     <ClCompile Include="register\register_settings.cpp" />
     <ClCompile Include="register\register_shortratemodels.cpp" />
     <ClCompile Include="register\register_smilesection.cpp" />
