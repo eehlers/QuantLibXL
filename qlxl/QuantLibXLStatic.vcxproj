@@ -396,6 +396,7 @@
     <ClCompile Include="functions\function_browniangenerators.cpp" />
     <ClCompile Include="functions\function_calendars.cpp" />
     <ClCompile Include="functions\function_capletvolstructure.cpp" />
+    <ClCompile Include="functions\function_correlation.cpp" />
     <ClCompile Include="functions\function_couponvectors.cpp" />
     <ClCompile Include="functions\function_credit.cpp" />
     <ClCompile Include="functions\function_curvestate.cpp" />
@@ -442,6 +443,7 @@
     <ClCompile Include="register\register_browniangenerators.cpp" />
     <ClCompile Include="register\register_calendars.cpp" />
     <ClCompile Include="register\register_capletvolstructure.cpp" />
+    <ClCompile Include="register\register_correlation.cpp" />
     <ClCompile Include="register\register_couponvectors.cpp" />
     <ClCompile Include="register\register_credit.cpp" />
     <ClCompile Include="register\register_curvestate.cpp" />

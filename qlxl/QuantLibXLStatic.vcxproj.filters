@@ -327,5 +327,11 @@
     <ClCompile Include="register\register_sequencestatistics.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_correlation.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_correlation.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
