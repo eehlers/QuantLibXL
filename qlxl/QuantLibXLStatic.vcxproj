@@ -405,6 +405,7 @@
     <ClCompile Include="functions\function_defaultbasket.cpp" />
     <ClCompile Include="functions\function_defaulttermstructures.cpp" />
     <ClCompile Include="functions\function_driftcalculators.cpp" />
+    <ClCompile Include="functions\function_evolutiondescription.cpp" />
     <ClCompile Include="functions\function_exercise.cpp" />
     <ClCompile Include="functions\function_handles.cpp" />
     <ClCompile Include="functions\function_indexes.cpp" />
@@ -453,6 +454,7 @@
     <ClCompile Include="register\register_defaultbasket.cpp" />
     <ClCompile Include="register\register_defaulttermstructures.cpp" />
     <ClCompile Include="register\register_driftcalculators.cpp" />
+    <ClCompile Include="register\register_evolutiondescription.cpp" />
     <ClCompile Include="register\register_exercise.cpp" />
     <ClCompile Include="register\register_handles.cpp" />
     <ClCompile Include="register\register_indexes.cpp" />

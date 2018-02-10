@@ -339,5 +339,11 @@
     <ClCompile Include="register\register_products.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="register\register_evolutiondescription.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\function_evolutiondescription.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
