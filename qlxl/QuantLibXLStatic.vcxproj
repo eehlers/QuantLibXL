@@ -399,6 +399,7 @@
     <ClCompile Include="functions\function_correlation.cpp" />
     <ClCompile Include="functions\function_couponvectors.cpp" />
     <ClCompile Include="functions\function_credit.cpp" />
+    <ClCompile Include="functions\function_ctsmmcapletcalibration.cpp" />
     <ClCompile Include="functions\function_curvestate.cpp" />
     <ClCompile Include="functions\function_date.cpp" />
     <ClCompile Include="functions\function_daycounters.cpp" />
@@ -448,6 +449,7 @@
     <ClCompile Include="register\register_correlation.cpp" />
     <ClCompile Include="register\register_couponvectors.cpp" />
     <ClCompile Include="register\register_credit.cpp" />
+    <ClCompile Include="register\register_ctsmmcapletcalibration.cpp" />
     <ClCompile Include="register\register_curvestate.cpp" />
     <ClCompile Include="register\register_date.cpp" />
     <ClCompile Include="register\register_daycounters.cpp" />

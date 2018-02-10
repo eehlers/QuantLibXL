@@ -345,5 +345,11 @@
     <ClCompile Include="functions\function_evolutiondescription.cpp">
       <Filter>functions</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_ctsmmcapletcalibration.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_ctsmmcapletcalibration.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
