@@ -419,6 +419,7 @@
     <ClCompile Include="functions\function_prices.cpp" />
     <ClCompile Include="functions\function_pricingengines.cpp" />
     <ClCompile Include="functions\function_processes.cpp" />
+    <ClCompile Include="functions\function_products.cpp" />
     <ClCompile Include="functions\function_quotes.cpp" />
     <ClCompile Include="functions\function_ratehelpers.cpp" />
     <ClCompile Include="functions\function_schedule.cpp" />
@@ -466,6 +467,7 @@
     <ClCompile Include="register\register_prices.cpp" />
     <ClCompile Include="register\register_pricingengines.cpp" />
     <ClCompile Include="register\register_processes.cpp" />
+    <ClCompile Include="register\register_products.cpp" />
     <ClCompile Include="register\register_quotes.cpp" />
     <ClCompile Include="register\register_ratehelpers.cpp" />
     <ClCompile Include="register\register_schedule.cpp" />

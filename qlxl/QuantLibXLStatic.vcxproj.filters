@@ -333,5 +333,11 @@
     <ClCompile Include="register\register_correlation.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_products.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_products.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
