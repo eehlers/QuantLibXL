@@ -351,5 +351,11 @@
     <ClCompile Include="register\register_ctsmmcapletcalibration.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_marketmodels.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_marketmodels.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -414,6 +414,7 @@
     <ClCompile Include="functions\function_interpolation.cpp" />
     <ClCompile Include="functions\function_latentmodels.cpp" />
     <ClCompile Include="functions\function_leg.cpp" />
+    <ClCompile Include="functions\function_marketmodels.cpp" />
     <ClCompile Include="functions\function_math.cpp" />
     <ClCompile Include="functions\function_optimization.cpp" />
     <ClCompile Include="functions\function_payoffs.cpp" />
@@ -464,6 +465,7 @@
     <ClCompile Include="register\register_interpolation.cpp" />
     <ClCompile Include="register\register_latentmodels.cpp" />
     <ClCompile Include="register\register_leg.cpp" />
+    <ClCompile Include="register\register_marketmodels.cpp" />
     <ClCompile Include="register\register_math.cpp" />
     <ClCompile Include="register\register_optimization.cpp" />
     <ClCompile Include="register\register_payoffs.cpp" />
