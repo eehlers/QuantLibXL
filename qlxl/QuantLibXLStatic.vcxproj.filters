@@ -363,5 +363,11 @@
     <ClCompile Include="register\register_marketmodelevolvers.cpp">
       <Filter>register</Filter>
     </ClCompile>
+    <ClCompile Include="functions\function_accountingengines.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register_accountingengines.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
