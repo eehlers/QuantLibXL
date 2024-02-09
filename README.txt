@@ -1,16 +1,11 @@
+This is probably not the repository that you are looking for.  This repo comprises a discontinued experiment to change the design of QuantLibXL.
 
-QuantLibXL
-<http://www.quantlib.org/quantlibxl>
+If you want to compile QuantLibXL from source code, then the repo that you need is:
 
-QuantLibXL is an Excel addin for QuantLib.  QuantLibXL is a subproject of the
-QuantLib open source C++ analytics library.
+https://github.com/eehlers/QuantLibAddin-Old
 
-The mailing list for this project is
-<https://lists.sourceforge.net/lists/listinfo/quantlib-users>.
+And the documentation is:
 
-Installation instructions are available at
-<http://quantlib.org/reposit/docs/latest/qlxl_install.html>.
+https://www.quantlib.org/quantlibaddin/build_qlxl.html
 
-A list of changes for this and previous releases can be browsed at 
-<http://quantlib.org/quantlibxl/history.html>.
-
+That doc explains how to retrieve the source code from packaged tarballs.  You can instead retrieve the source code from the QuantLibAddin-Old repo and the build is otherwise the same.
